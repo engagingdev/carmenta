@@ -1,0 +1,162 @@
+/*Gill Sans font*/
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('/fonts/Gill-Sans-Font-Family/Gill Sans Light.otf')
+        format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('/fonts/Gill-Sans-Font-Family/Gill Sans Light Italic.otf')
+        format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('/fonts/Gill-Sans-Font-Family/Gill Sans.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('/fonts/Gill-Sans-Font-Family/Gill Sans Italic.otf')
+        format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('/fonts/Gill-Sans-Font-Family/Gill Sans Medium Italic.otf')
+        format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('/fonts/Gill-Sans-Font-Family/Gill Sans Medium.otf')
+        format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('/fonts/Gill-Sans-Font-Family/Gill Sans Bold.otf')
+        format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('/fonts/Gill-Sans-Font-Family/Gill Sans Bold Italic.otf')
+        format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('/fonts/Gill-Sans-Font-Family/Gill Sans Heavy.otf')
+        format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('/fonts/Gill-Sans-Font-Family/Gill Sans Heavy.otf')
+        format('opentype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+/*Helvetica font*/
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/fonts/Helvetica-Font/HelveticaNeueUltraLightv130.woff')
+        format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/fonts/Helvetica-Font/Helvetica-Light.woff')
+        format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/fonts/Helvetica-Font/helvetica-light-587ebe5a59211.ttf')
+        format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/fonts/Helvetica-Font/Helvetica.ttf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/fonts/Helvetica-Font/Helvetica-Oblique.ttf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/fonts/Helvetica-Font/Helvetica-Bold.ttf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/fonts/Helvetica-Font/Helvetica-BoldOblique.ttf')
+        format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+/*Arial font*/
+@font-face {
+    font-family: 'Arial';
+    src: url('/fonts/Arial-Font/regular.ttf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('/fonts/Arial-Font/bold.ttf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Candara';
+    src: url('/fonts/Candara/Candara.ttf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('/fonts/Georgia-Font/bold.ttf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}

@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './fonts.css';
+
+.dui-menu ul li a {
+    @apply px-4 py-2 text-base;
+}
+
+.dui-menu summary {
+    @apply flex items-center justify-between pl-8 pr-12 py-2 cursor-pointer whitespace-nowrap;
+}
+
+.dui-menu {
+    @apply px-4;
+    max-height: calc(100vh - 128px);
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+}
+
+.dui-menu::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+.dui-menu::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 3px;
+}
+
+/* Handle */
+.dui-menu::-webkit-scrollbar-thumb {
+    background: #999999;
+    border-radius: 3px;
+}
+
+.dui-menu :where(li > details > summary):after,
+.dui-menu :where(li > .dui-menu-dropdown-toggle):after {
+    transform: rotate(-45deg);
+    margin-top: -0.25rem;
+}
+
+.dui-menu :where(li > details[open] > summary):after,
+.dui-menu :where(li > .dui-menu-dropdown-toggle.dui-menu-dropdown-show):after {
+    transform: rotate(45deg);
+}
+
+.clip-right-triangle {
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+}
+
+.clip-top-triangle {
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+}
+
+.react-pdf__Document {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.react-pdf__Page {
+    width: 100%;
+}
+.react-pdf__Page__svg {
+    max-width: 100vw;
+    width: 100% !important;
+    height: auto !important;
+}
+.react-pdf__Page__svg svg {
+    width: 100% !important;
+    height: auto !important;
+}
+.react-pdf__Page__annotations {
+    display: none;
+}
+
+.dui-collapse-arrow .dui-collapse-title:after {
+    --tw-rotate: -45deg;
+    display: block;
+    height: 0.75rem;
+    width: 0.75rem;
+    position: initial;
+    --tw-translate-y: 0;
+    transform-origin: unset;
+}
+
+.dui-collapse-arrow:not(.dui-collapse-close)
+    input[type='radio']:checked
+    ~ .dui-collapse-title:after {
+    --tw-rotate: 45deg;
+}
+
+.collapse[open]>.collapse-content,
+.collapse-open>.collapse-content,
+.collapse:focus:not(.collapse-close)>.collapse-content,
+.collapse:not(.collapse-close)>input[type=checkbox]:checked~.collapse-content,
+.collapse:not(.collapse-close)>input[type=radio]:checked~.collapse-content {
+    height: fit-content;
+}
+.pr-08 {
+    padding-right: 0.8rem;
+}
+.bottom-05 {
+    bottom: 0.5rem !important;
+}
